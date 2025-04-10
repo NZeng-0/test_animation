@@ -27,7 +27,6 @@
             width: 50rem;
             height: 50rem;
             overflow: visible;
-            background: rgba(255, 255, 255, 0.206);
         }
         .container line {
             fill: none;
@@ -51,7 +50,7 @@
         balls: [],
         init(){
             this.resize()
-            this.createYoyo(30)
+            this.createYoyo(16)
             document.addEventListener("mousemove", (e)=>{
                 this.moveBalls(e.x, e.y)
             })
